@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["biribarj@gmail.com"]
 
   spec.summary       = "Like Hash#reject but recursively"
-  spec.description   = "Like Hash#reject but recursively"
+  spec.description   = "Deletes recursively every key-value pair from hash for which block evaluates to true."
   spec.homepage      = "https://github.com/rafaelbiriba/hash_deep_reject"
   spec.license       = "MIT"
 
