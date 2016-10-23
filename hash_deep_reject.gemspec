@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'hash_reject_recursively/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruby_hash_deep_reject"
+  spec.name          = "hash_reject_recursively"
   spec.version       = HashRejectRecursively::VERSION
   spec.authors       = ["Rafael Biriba"]
   spec.email         = ["biribarj@gmail.com"]
