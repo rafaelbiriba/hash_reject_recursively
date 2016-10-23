@@ -1,5 +1,2 @@
 require "hash_deep_reject/version"
-
-module HashDeepReject
-  # Your code goes here...
-end
+require "hash_deep_reject/hash"
