@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'hash_deep_reject/version'
+require 'hash_reject_recursively/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "hash_deep_reject"
-  spec.version       = HashDeepReject::VERSION
+  spec.name          = "ruby_hash_deep_reject"
+  spec.version       = HashRejectRecursively::VERSION
   spec.authors       = ["Rafael Biriba"]
   spec.email         = ["biribarj@gmail.com"]
 
   spec.summary       = "Like Hash#reject but recursively"
   spec.description   = "Deletes recursively every key-value pair from hash for which block evaluates to true."
-  spec.homepage      = "https://github.com/rafaelbiriba/hash_deep_reject"
+  spec.homepage      = "https://github.com/rafaelbiriba/hash_reject_recursively"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
