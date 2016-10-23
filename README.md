@@ -1,4 +1,4 @@
-# Hash Deep Reject
+# Hash Reject Recursively
 
 Like Hash#reject but recursively.
 
@@ -9,7 +9,7 @@ Deletes recursively every key-value pair from hash for which block evaluates to 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hash_deep_reject'
+gem 'hash_reject_recursively'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hash_deep_reject
+    $ gem install hash_reject_recursively
 
 ## Usage
 
