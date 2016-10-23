@@ -1,5 +1,7 @@
 # Hash Reject Recursively
 
+![Gem Version](https://img.shields.io/gem/v/hash_reject_recursively.svg?style=flat-square) [![Code Climate](https://img.shields.io/codeclimate/github/rafaelbiriba/hash_reject_recursively.svg?style=flat-square)](https://codeclimate.com/github/rafaelbiriba/hash_reject_recursively) [![Coverage Status](https://img.shields.io/coveralls/rafaelbiriba/hash_reject_recursively/master.svg?style=flat-square)](https://coveralls.io/r/rafaelbiriba/hash_reject_recursively?branch=master) [![Travis](https://img.shields.io/travis/rafaelbiriba/hash_reject_recursively/master.svg?style=flat-square)](https://travis-ci.org/rafaelbiriba/hash_reject_recursively)
+
 Like Hash#reject but recursively.
 
 Deletes recursively every key-value pair from hash for which block evaluates to true.
